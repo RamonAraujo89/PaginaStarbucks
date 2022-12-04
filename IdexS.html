@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./stylesS.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;900&display=swap" rel="stylesheet">
+
+    <title>Pagina Starbucks</title>
+</head>
+
+<body>
+
+    <div class="circulo"></div>
+    <img src="./Imagem/logo.png" class="logo">
+
+    <div class="conteudo">
+
+        <div class="caixa-texto">
+            <h2>It's not just a Coffee <br>
+                It's <span>Starbucks</span></h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi in corporis quasi dolores cumque animi
+                quisquam enim assumenda, porro, quidem, aut iste aliquid voluptatum laudantium! Mollitia aliquid eveniet
+                ipsum! Rem?</p>
+            <button>Deixe o seu like</button>
+        </div>
+
+        <div class="caixa-imagem">
+            <img src="./Imagem/img1.png" class="starbucks">
+        </div>
+    </div>
+
+
+    <div class="menu">
+        <img src="./Imagem/Thumb1.png" class="botao-menu" onclick="trocaImagem('./Imagem/img1.png'); trocaCor('#017143')"   >
+        <img src="./Imagem/Thumb2.png" class="botao-menu" onclick="trocaImagem('./Imagem/Thumb2.png'); trocaCor('#eb7495')"  >
+        <img src="./Imagem/Thumb3.png" class="botao-menu" onclick="trocaImagem('./Imagem/img3.png'); trocaCor('#d752b1')"    >
+    </div>
+</body>
+
+<script src="./scripts.js"></script>
+
+</html>
